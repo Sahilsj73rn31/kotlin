@@ -23,8 +23,8 @@ var i: Int =20
     println(i.plus(43))
     println(i.toFloat())
 
-    val p1=person(name="A", age=32)
-    val p2 = person(name= "sahil", age=18)
+    val p1 = person( name= "A", age=32 )
+    val p2 = person( name= "sahil", age=18)
 
     println(p1.canvote())
     println(p2.canvote())
