@@ -1,4 +1,4 @@
-fun main() {
+//fun main() {
 //    var car = AM(name="car",tyres=4,ms=6)
 //    var person = person("sahil", 43)
 //    println(person.age)
@@ -20,20 +20,32 @@ fun main() {
 //    val name : String=nameparam
 //    val age:Int=ageparam
 
-    var car = AM(name="car",tyres=4,ms=6,"petrol")
-    var car2=AM(name="car2",tyres=2,ms=6,"petrol")
-}
-class AM(val name: String,val tyres: Int,val ms: Int,engine: String)
-{
-    init{
-        println("$name is created")
-    }
-
-    init{
-        println("second intializer block")
-    }
-constructor(nameparam: String,engineparam:String) :
-        this(nameparam,3,2,4)
-    fun drive(){}
-    fun applybrakes(){}
-}
+//    class Car(
+//        val name: String,
+//        val airbags: Int,
+//        val doors: Int
+//    ) {
+//
+//        init {
+//            println("$name is created")
+//        }
+//
+//        init {
+//            println("Second initializer block")
+//        }
+//
+//        // Secondary constructor
+//        constructor(nameParam: String, engineParam: String) :
+//                this(nameParam, 3, 2) {
+//            println("Secondary constructor called with engine: $engineParam")
+//        }
+//
+//        fun drive() {
+//            println("$name is driving")
+//        }
+//
+//        fun applyBrakes() {
+//            println("$name applied brakes")
+//        }
+//    }
+//}
